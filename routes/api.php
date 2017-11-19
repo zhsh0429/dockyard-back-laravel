@@ -22,3 +22,7 @@ Route::get('/boats', [
     'uses' => 'BoatController@getBoats'
 ]);
 
+Route::get('/boats/{id}', [
+    'uses' => 'BoatController@getBoatById'
+]);
+
